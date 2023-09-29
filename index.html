@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Day51-Create a simple note taking Web application with HTML, CSS JS
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div>
+        <a href="#" class="logo">Azier's Note</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="heading">Welcome to Azier's Note App</h1>
+      <hr />
+      <div class="input">
+        <div class="card-body">
+          <h2 class="card-title">Add Note</h2>
+          <div>
+            <textarea
+              name=""
+              id="addTxt"
+              class="form-control"
+              rows="5"
+            ></textarea>
+          </div>
+          <button class="primary-btn" id="addBtn">Add Note</button>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="notes-heading">Your Notes</h1>
+    <hr />
+    <div class="output-container" id="notes"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
